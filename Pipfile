@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+configparser = "*"
+openpyxl = "*"
+reprint = "*"
+
+[dev-packages]
+auto-py-to-exe = "*"
+pyinstaller = "*"
+pillow = "*"
+
+[requires]
+python_version = "3.9"
